@@ -5,7 +5,7 @@ from django.conf import settings
 app_name = 'products'
 
 urlpatterns = [
-    path('test/',products,name = 'index')
+    path('',products,name = 'index')
 
 ]
 
