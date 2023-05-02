@@ -13,3 +13,5 @@ class ProudctAdmin(admin.ModelAdmin):
     readonly_fields = ('description',)
     search_fields = ('name',)
     ordering = ('name',)
+
+
